@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UDPsocketTest": {
+      "commandName": "Project",
+      "commandLineArgs": "6000 192.168.1.153 6000"
+    }
+  }
+}
