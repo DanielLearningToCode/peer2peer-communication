@@ -2,7 +2,6 @@
 using System;
 using System.Linq;
 using System.Net;
-using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 
@@ -36,7 +35,6 @@ namespace UDPsocketTest
             {
                 try
                 {
-                    //localIp = IPAddress.Parse(args[0]);
                     localPort = Convert.ToInt32(args[0]);
                     remoteIp = IPAddress.Parse(args[1]);
                     remotePort = Convert.ToInt32(args[2]);
